@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Rippleable_Example' do
+  pod 'Rippleable', :path => '../'
+
+  target 'Rippleable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
