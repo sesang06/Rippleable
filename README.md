@@ -1,6 +1,7 @@
-Rippleable: Ripple-Effecting Button in Swift
+## Rippleable
+Ripple-Effecting Button in Swift, Inspired by material ios design
 
-Inspired by material ios design
+![Screenshot](https://github.com/sesang06/Rippleable/blob/master/Ripple-screenshot.gif)
 
 Exmaple
 
