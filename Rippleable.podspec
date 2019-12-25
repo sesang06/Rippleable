@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'Simple Material Rippleable Button.'
 
-
+  s.swift_version = '5.0'
   s.description      = 'A Simple Material Rippleable Button, based by objective-C material-ios design, converting its essential codes into Swift.'
   s.homepage         = 'https://github.com/sesang06/Rippleable'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
