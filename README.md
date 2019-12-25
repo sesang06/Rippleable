@@ -1,24 +1,54 @@
-# Rippleable
+Rippleable: Ripple-Effecting Button in Swift
 
-[![CI Status](https://img.shields.io/travis/sesang06/Rippleable.svg?style=flat)](https://travis-ci.org/sesang06/Rippleable)
-[![Version](https://img.shields.io/cocoapods/v/Rippleable.svg?style=flat)](https://cocoapods.org/pods/Rippleable)
-[![License](https://img.shields.io/cocoapods/l/Rippleable.svg?style=flat)](https://cocoapods.org/pods/Rippleable)
-[![Platform](https://img.shields.io/cocoapods/p/Rippleable.svg?style=flat)](https://cocoapods.org/pods/Rippleable)
+Inspired by material ios design
 
-## Example
+Exmaple
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```swift
+/// outLined-styled button
+let outLinedButton: RippleableButton = {
+  let button = RippleableButton(type: .outlined)
+  button.layer.cornerRadius = 5
+  button.setTitle("Hello World!", for: .normal)
+  button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+  button.primaryColor = .blue
+  return button
+}()
 
+/// cointained-styled button
+let containedButton: RippleableButton = {
+  let button = RippleableButton(type: .contained)
+  button.layer.cornerRadius = 5
+  button.setTitle("Hello World!", for: .normal)
+  button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+  button.primaryColor = .blue
+  return button
+}()
+
+/// text-styled button
+let textButton: RippleableButton = {
+  let button = RippleableButton(type: .text)
+  button.layer.cornerRadius = 5
+  button.setTitle("Hello World!", for: .normal)
+  button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+  button.primaryColor = .blue
+  return button
+}()
+```
 ## Requirements
+
+Rippleable is written in Xcode 11, Swift 5.0, iOS 10.0 Required.
 
 ## Installation
 
-Rippleable is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Rippleable is available through Cocoapods.
 
 ```ruby
-pod 'Rippleable'
-```
+pod "Rippleable"
+````
+## Contribution
+
+Pull Requests are welcomed.
 
 ## Author
 
@@ -26,4 +56,4 @@ sesang06, sesang06@naver.com
 
 ## License
 
-Rippleable is available under the MIT license. See the LICENSE file for more info.
+Rippleable is available under the MIT license.

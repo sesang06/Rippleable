@@ -9,34 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = 'Rippleable'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Rippleable.'
+  s.summary          = 'Simple Material Rippleable Button.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = 'A Simple Material Rippleable Button, based by objective-C material-ios design, converting its essential codes into Swift.'
   s.homepage         = 'https://github.com/sesang06/Rippleable'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sesang06' => 'sesang06@naver.com' }
   s.source           = { :git => 'https://github.com/sesang06/Rippleable.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Rippleable/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Rippleable' => ['Rippleable/Assets/*.png']
-  # }
+  s.source_files = 'Rippleable/**/*'
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
 end

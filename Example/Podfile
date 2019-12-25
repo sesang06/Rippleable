@@ -1,6 +1,7 @@
-use_frameworks!
+platform :ios, '10.0'
 
 target 'Rippleable_Example' do
+  use_frameworks!
   pod 'Rippleable', :path => '../'
 
   target 'Rippleable_Tests' do

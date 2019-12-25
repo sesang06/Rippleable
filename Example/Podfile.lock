@@ -1,0 +1,16 @@
+PODS:
+  - Rippleable (0.1.0)
+
+DEPENDENCIES:
+  - Rippleable (from `../`)
+
+EXTERNAL SOURCES:
+  Rippleable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Rippleable: a4ecdff72f723c4584d28326d55ea0dd6b13f2cc
+
+PODFILE CHECKSUM: 2372170aac49a798118e0b68f0315d76b38fc0cb
+
+COCOAPODS: 1.7.5
